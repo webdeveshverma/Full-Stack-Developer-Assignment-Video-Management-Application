@@ -1,61 +1,81 @@
-### Video Management Application
+# Video Management Application
+
 ## A Video Management Application built using the MERN stack (MongoDB, Express, React, Node.js). The app allows users to upload, view, and manage their video collections with features like user authentication, pagination, and metadata generation.
 
-GitHub Repository:
-Video Management Application
+### GitHub Repository:
+[Video Management Application](https://github.com/webdeveshverma/Full-Stack-Developer-Assignment-Video-Management-Application)
 
-Backend
-Installation
-Clone the repository:
+---
 
-bash
-git clone https://github.com/webdeveshverma/Full-Stack-Developer-Assignment-Video-Management-Application.git
-cd video-management-backend
-Install dependencies:
-bash
-npm install
-Start the server:
+## Backend
 
-bash
-Copy
-Edit
-npm start
-The backend runs on http://localhost:5005.
+### Installation
 
-API Endpoints
-POST /api/auth/register: Register a new user.
+Add .env file 
 
-POST /api/auth/login: Login and get a JWT token.
+PORT=5005
+MONGO_URI=""
+JWT_SECRET=""
 
-POST /api/videos/upload: Upload a new video (requires authentication).
 
-GET /api/videos: Get all videos for the logged-in user.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/webdeveshverma/Full-Stack-Developer-Assignment-Video-Management-Application.git
+    cd video-management-backend
+    ```
 
-Frontend
-Installation
-Navigate to video-management-frontend:
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-bash
-cd video-management-frontend
-Install dependencies:
+3. Start the server:
+    ```bash
+    npm start
+    ```
+    The backend runs on `http://localhost:5005`.
 
-bash
-npm install
-Start the frontend server:
 
-bash
-npm start
-The frontend runs on http://localhost:3000.
 
-Features
-User login and authentication with JWT.
+### API Endpoints
 
-Video upload, filtering, pagination, and metadata generation.
+- **POST `/api/auth/register`**: Register a new user.
+- **POST `/api/auth/login`**: Login and get a JWT token.
+- **POST `/api/videos/upload`**: Upload a new video (requires authentication).
+- **GET `/api/videos`**: Get all videos for the logged-in user.
 
-Dashboard displaying user-specific videos.
+---
 
-Tech Stack
-Backend: Node.js, Express, MongoDB, JWT Authentication.
+## Frontend
 
-Frontend: React, Material-UI, Axios, Redux.
+### Installation
+
+1. Navigate to `video-management-frontend`:
+    ```bash
+    cd video-management-frontend
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the frontend server:
+    ```bash
+    npm start
+    ```
+    The frontend runs on `http://localhost:3000`.
+
+### Features
+
+- User login and authentication with JWT.
+- Video upload, filtering, pagination, and metadata generation.
+- Dashboard displaying user-specific videos.
+
+---
+
+## Tech Stack
+
+- **Backend**: Node.js, Express, MongoDB, JWT Authentication.
+- **Frontend**: React, Material-UI, Axios, Redux.
 
