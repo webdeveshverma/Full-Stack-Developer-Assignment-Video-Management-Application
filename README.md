@@ -1,7 +1,5 @@
 # Video Management Application
 
-## A Video Management Application built using the MERN stack (MongoDB, Express, React, Node.js). The app allows users to upload, view, and manage their video collections with features like user authentication, pagination, and metadata generation.
-
 ### GitHub Repository:
 [Video Management Application](https://github.com/webdeveshverma/Full-Stack-Developer-Assignment-Video-Management-Application)
 
